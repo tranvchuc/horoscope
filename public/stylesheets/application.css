@@ -1,0 +1,56 @@
+body {
+  padding: 10px 0;
+}
+
+#header {
+  background: #FECCFF;
+  float:left;
+  margin-bottom: 10px;
+  width:100%;
+}
+
+.container {
+  background: #fff;
+}
+
+.content {
+  padding: 20px;
+}
+
+.menu {
+  text-align: center;
+  padding: 0 2em;
+}
+
+.menu a {
+  background: #FECCFF;
+  border: 3px solid #A73894;
+  float: left;
+  display: block;
+  padding: 0.5em;
+  margin-right: 0.2em;
+}
+
+.menu a:hover {
+  background: #fff;
+}
+
+.menu a.selected, .menu a.selected:hover {
+  background: #A73894;
+  color: #fff;
+}
+
+.menu_period {
+  background: #FECCFF;
+  font-size: 1.2em;
+  padding: 0 20px;
+  margin: 10px 0 0 0;
+}
+
+.menu_period a {
+  margin-left: 1em;
+}
+
+.menu_period a.selected {
+  color: #000;
+}

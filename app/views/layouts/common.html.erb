@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="fr">
+  <head>
+    <%= stylesheet_link_tag 'screen.css', :media => "screen, projection" %>
+    <%= stylesheet_link_tag "print.css", :media => "print" %>
+    <!--[if IE]><%= stylesheet_link_tag "ie.css", :media => "screen, projection" %><![endif]-->
+    <%= stylesheet_link_tag "application", :media => "screen" %>
+    <script type="text/javascript" src="/javascripts/jquery.js"></script>
+    <script type="text/javascript" src="/javascripts/application.js"></script>
+    <title><%= signs.assoc(@sign)[1] + ' - ' rescue '' %>Horoscope-Astrologique.fr</title>
+    <meta name='keywords' content='horoscope astrologie astrologique <%= signs.assoc(@sign)[1] rescue '' %>'>
+  </head>
+  <body>
+    <div class="container clear">
+      <div id='header'>
+        <div style='font-size:3em;text-align:center'>
+          Horoscope-Astrologique.fr
+        </div>
+        <%= render :partial => '/shared/menu' %>
+      </div>
+      <%= adsense %>
+      <% if params[:action] == 'sign' %>
+        <%= render :partial => '/shared/menu_period' %>
+      <% elsif params[:action] == 'index' %>
+        <div style='background:#FECCFF;color:#A73894;font-size:1.2em;padding:0 20px;'>
+          Vous allez passer une bonne journée?
+          Allez-vous rencontrer l'amour soeur aujourd'hui? cette semaine?<br/>
+          Horoscope-Astrologique.fr vous dit tout.
+        </div>
+      <% end %>
+      <div class='column span-19 border'>
+        <div class='content'><%= yield %></div>
+      </div>
+      <div class='column span-5 last'>
+        <div style='padding:10px 0;text-align:center'><%= adsense_vertical %></div>
+      </div>
+      <hr class='space'></hr>
+      <%= adsense %>
+    </div>
+  </body>
+</html>

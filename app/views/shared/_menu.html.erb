@@ -1,0 +1,5 @@
+<div class='menu clear'>
+  <% signs.each do |sign| %>
+    <%= link_to sign[1], sign_path(sign[0]), :class => ('selected' if @sign == sign[0]) %>
+  <% end %>
+</div>

@@ -30,6 +30,8 @@ ActionController::Routing::Routes.draw do |map|
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.
-  map.connect ':controller/:action/:id'
-  map.connect ':controller/:action/:id.:format'
+  map.home '/', :controller => 'home', :action => 'index'
+  #map.belier '/belier', :controller => 'home', :action => 'belier'
+  map.sign '/:sign', :controller => 'home', :action => 'sign'
+  map.sign_with_period '/:sign/:period', :controller => 'home', :action => 'sign'
 end

@@ -1,0 +1,9 @@
+<div class='clear' style='padding:0 50px'>
+  <% signs.each do |sign| %>
+    <div style='float:left; padding: 20px;text-align:center'>
+      <%= link_to(image_tag("/images/#{sign[0]}.gif", :alt => sign[1], :width => 100, :height => 100), sign_path(sign[0]) )  %>
+      <br></br>
+      <%= link_to sign[1], sign_path(sign[0]) %>
+    </div>
+  <% end %>
+</div>

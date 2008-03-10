@@ -56,4 +56,6 @@ Rails::Initializer.run do |config|
 
   # Make Active Record use UTC-base instead of local time
   # config.active_record.default_timezone = :utc
+  require 'rss/2.0'
+  require 'open-uri'
 end
