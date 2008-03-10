@@ -1,0 +1,4 @@
+log_file: log/mongrel.log
+port: 8010
+pid_file: tmp/pids/mongrel.pid
+servers: 3
