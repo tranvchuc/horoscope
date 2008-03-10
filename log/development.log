@@ -4426,3 +4426,198 @@ Rendering home/sign
 Rendered /shared/_menu (0.00091)
 Rendered /shared/_menu_period (0.00042)
 Completed in 0.41395 (2 reqs/sec) | Rendering: 0.00396 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/vierge]
+
+
+Processing HomeController#sign (for 192.168.1.7 at 2008-03-10 03:43:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"balance"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00167)
+Rendered /shared/_menu_period (0.00124)
+Completed in 0.53828 (1 reqs/sec) | Rendering: 0.01002 (1%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/balance]
+
+
+Processing HomeController#sign (for 192.168.1.7 at 2008-03-10 03:44:19) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"vierge"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00084)
+Rendered /shared/_menu_period (0.00040)
+Completed in 0.50983 (1 reqs/sec) | Rendering: 0.00391 (0%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/vierge]
+
+
+Processing HomeController#index (for 192.168.1.7 at 2008-03-10 03:44:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/common
+Rendering home/index
+Rendered /shared/_menu (0.00066)
+Completed in 0.00826 (121 reqs/sec) | Rendering: 0.00569 (68%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/]
+
+
+Processing HomeController#sign (for 192.168.1.7 at 2008-03-10 03:45:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"fdfd"}
+Completed in 0.00334 (299 reqs/sec) | Rendering: 0.00007 (2%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/fdfd]
+
+
+Processing HomeController#sign (for 192.168.1.7 at 2008-03-10 03:45:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"balance"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00081)
+Rendered /shared/_menu_period (0.00040)
+Completed in 0.51231 (1 reqs/sec) | Rendering: 0.00372 (0%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/balance]
+
+
+Processing HomeController#sign (for 192.168.1.7 at 2008-03-10 03:45:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"balance"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00084)
+Rendered /shared/_menu_period (0.00040)
+Completed in 0.51206 (1 reqs/sec) | Rendering: 0.00382 (0%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/balance]
+
+
+Processing HomeController#sign (for 192.168.1.7 at 2008-03-10 03:45:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"balanced"}
+Completed in 0.00327 (305 reqs/sec) | Rendering: 0.00011 (3%) | DB: 0.00000 (0%) | 404 Not Found [http://192.168.1.4/balanced]
+
+
+Processing HomeController#sign (for 192.168.1.7 at 2008-03-10 03:46:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"balance"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00067)
+Rendered /shared/_menu_period (0.00033)
+Completed in 0.51106 (1 reqs/sec) | Rendering: 0.00313 (0%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/balance]
+
+
+Processing HomeController#sign (for 127.0.0.1 at 2008-03-10 03:46:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"vierge"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00080)
+Rendered /shared/_menu_period (0.00039)
+Completed in 0.48962 (2 reqs/sec) | Rendering: 0.00363 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/vierge]
+
+
+Processing HomeController#sign (for 127.0.0.1 at 2008-03-10 03:47:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"period"=>"semaine", "action"=>"sign", "controller"=>"home", "sign"=>"vierge"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00077)
+Rendered /shared/_menu_period (0.00036)
+Completed in 0.38719 (2 reqs/sec) | Rendering: 0.00355 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/vierge/semaine]
+
+
+Processing HomeController#sign (for 127.0.0.1 at 2008-03-10 03:47:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"period"=>"moi", "action"=>"sign", "controller"=>"home", "sign"=>"vierge"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00082)
+Rendered /shared/_menu_period (0.00040)
+Completed in 0.29738 (3 reqs/sec) | Rendering: 0.00374 (1%) | DB: 0.00000 (0%) | 200 OK [http://localhost/vierge/moi]
+
+
+Processing HomeController#sign (for 127.0.0.1 at 2008-03-10 03:48:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"vierge"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00067)
+Rendered /shared/_menu_period (0.00035)
+Completed in 0.41290 (2 reqs/sec) | Rendering: 0.00316 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/vierge]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2008-03-10 03:48:28) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/common
+Rendering home/index
+Rendered /shared/_menu (0.00069)
+Completed in 0.00744 (134 reqs/sec) | Rendering: 0.00458 (61%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 192.168.1.7 at 2008-03-10 03:50:08) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/common
+Rendering home/index
+Rendered /shared/_menu (0.00064)
+Completed in 0.00664 (150 reqs/sec) | Rendering: 0.00406 (61%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2008-03-10 04:09:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/common
+Rendering home/index
+Rendered /shared/_menu (0.00080)
+Completed in 0.00820 (121 reqs/sec) | Rendering: 0.00509 (62%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2008-03-10 04:11:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/common
+Rendering home/index
+Rendered /shared/_menu (0.00108)
+Completed in 0.00776 (128 reqs/sec) | Rendering: 0.00507 (65%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 192.168.1.7 at 2008-03-10 04:13:28) [GET]
+  Session ID: 98caf9d1dfad90eb273c84cb591617b8
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/common
+Rendering home/index
+Rendered /shared/_menu (0.00071)
+Completed in 0.00706 (141 reqs/sec) | Rendering: 0.00430 (60%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/]
+
+
+Processing HomeController#sign (for 192.168.1.7 at 2008-03-10 04:17:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"cancer"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00082)
+Rendered /shared/_menu_period (0.00042)
+Completed in 0.54735 (1 reqs/sec) | Rendering: 0.00392 (0%) | DB: 0.00000 (0%) | 200 OK [http://192.168.1.4/cancer]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2008-03-10 04:18:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/common
+Rendering home/index
+Rendered /shared/_menu (0.00080)
+Completed in 0.02002 (49 reqs/sec) | Rendering: 0.01723 (86%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing HomeController#sign (for 127.0.0.1 at 2008-03-10 04:19:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"balance"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00081)
+Rendered /shared/_menu_period (0.00040)
+Completed in 0.61402 (1 reqs/sec) | Rendering: 0.00399 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/balance]
+
+
+Processing HomeController#sign (for 127.0.0.1 at 2008-03-10 04:19:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%0ASGFzaHsABjoKQHVzZWR7AA%3D%3D--86357c6ceeac967bf602eb1dd92a844d9ea68091
+  Parameters: {"action"=>"sign", "controller"=>"home", "sign"=>"belier"}
+Rendering template within layouts/common
+Rendering home/sign
+Rendered /shared/_menu (0.00083)
+Rendered /shared/_menu_period (0.00044)
+Completed in 0.44962 (2 reqs/sec) | Rendering: 0.00383 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/belier]

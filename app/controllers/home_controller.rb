@@ -9,7 +9,7 @@ class HomeController < ApplicationController
   def sign
     @sign = params[:sign]
     unless signs.collect(&:first).include?(@sign)
-      render :nothing => true
+      render :nothing => true, :status => 404
       return false
     end
     
