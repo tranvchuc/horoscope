@@ -1,3 +1,7 @@
+user: root
+group: wheel
+cwd: /usr/local/www/horoscope
+address: 127.0.0.1
 log_file: log/mongrel.log
 port: 8010
 pid_file: tmp/pids/mongrel.pid
