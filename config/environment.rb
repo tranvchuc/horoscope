@@ -36,10 +36,10 @@ Rails::Initializer.run do |config|
   # If you change this key, all old sessions will become invalid!
   # Make sure the secret is at least 30 characters and all random, 
   # no regular words or you'll be exposed to dictionary attacks.
-  config.action_controller.session = {
-    :session_key => '_horoscope_session',
-    :secret      => 'c262cb9e96c23867b2d5dced9af3f287fbf82eee31bf1fc6c4ecd39e0f60aff8fd8277a183208d735cb2bf9b5db88daf412f044e02d2c187d913839ba33e3429'
-  }
+  # config.action_controller.session = {
+  #   :session_key => '_horoscope_session',
+  #   :secret      => 'c262cb9e96c23867b2d5dced9af3f287fbf82eee31bf1fc6c4ecd39e0f60aff8fd8277a183208d735cb2bf9b5db88daf412f044e02d2c187d913839ba33e3429'
+  # }
 
   # Use the database for sessions instead of the cookie-based default,
   # which shouldn't be used to store highly confidential information

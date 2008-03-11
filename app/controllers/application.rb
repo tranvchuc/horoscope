@@ -5,10 +5,11 @@ class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
   layout 'layouts/common'
   helper_method :signs, :periods
+  session :disabled => true
 
   # See ActionController::RequestForgeryProtection for details
   # Uncomment the :secret if you're not using the cookie session store
-  protect_from_forgery # :secret => '7e1cb3b07c536d55e70052c607ca5861'
+  # protect_from_forgery # :secret => '7e1cb3b07c536d55e70052c607ca5861'
   
   protected
   def signs
@@ -27,6 +28,6 @@ class ApplicationController < ActionController::Base
   end
   
   def periods
-    ['jour','semaine','moi']
+    ['jour','semaine','mois']
   end
 end
