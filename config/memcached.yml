@@ -6,6 +6,7 @@ defaults:
   compression: true
   debug: false
   namespace: horoscope
+  fragment_cache_key: www.horoscope-astrologique.fr
   sessions: false
   session_servers: false
   fragments: true
@@ -26,5 +27,4 @@ test:
   disabled: true
 
 production:
-  memory: 256
   benchmarking: false

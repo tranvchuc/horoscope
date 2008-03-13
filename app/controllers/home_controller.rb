@@ -14,6 +14,10 @@ class HomeController < ApplicationController
     @sign && @period
   end
   
+  def fragment_cache_key(*args)
+    request.host + request.request_uri
+  end
+  
   public
   def sign
     feed_url = case @period
