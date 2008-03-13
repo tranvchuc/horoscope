@@ -1,6 +1,6 @@
 <div class='menu_period'>
   Horoscope:
-  <%= link_to 'du jour', sign_path(@sign,'jour'), :class => ('selected' if @period == 'jour') %>
+  <%= link_to 'du jour', sign_path(@sign), :class => ('selected' if @period == 'jour') %>
   <%= link_to 'de la semaine', sign_path(@sign,'semaine'), :class => ('selected' if @period == 'semaine') %>
   <%= link_to 'du mois', sign_path(@sign,'mois'), :class => ('selected' if @period == 'mois') %>
 </div>
