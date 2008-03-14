@@ -58,6 +58,7 @@ Rails::Initializer.run do |config|
   # config.active_record.default_timezone = :utc
 end
 require 'rss/2.0'
+require 'hpricot'
 require 'open-uri'
 
 $KCODE = 'u'

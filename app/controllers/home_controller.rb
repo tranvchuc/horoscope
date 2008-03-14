@@ -33,6 +33,18 @@ class HomeController < ApplicationController
       response = http.read
       result   = RSS::Parser.parse(response, false)
       @item    = result.items.first
+      doc = Hpricot(@item.description)
+      doc.search("center:first").html = "<img width='100' height='100' src='/images/#{@sign}.gif' alt='#{@sign}'/>"
+      doc.search('b').set(:style => 'background-color:#A73894;color:#fff;display:block;padding:0 1em')
+      # doc.search("b").wrap("<p></p")
+      
+      (doc/"br:first").remove
+      (doc/"center:last").remove
+      
+      # (doc/"br").remove
+      # (doc/"b").before("<br/><br/>")
+      # (doc/"b").after("<br/>")
+      @description = doc
     end
   end
 end
