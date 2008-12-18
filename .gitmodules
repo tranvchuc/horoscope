@@ -1,6 +1,6 @@
-[submodule "vendor/plugins/cache_fu"]
-  path = vendor/plugins/cache_fu
-  url = git://github.com/defunkt/cache_fu.git
-[submodule "vendor/plugins/exception_notification"]
-  path = vendor/plugins/exception_notification
-  url = git://github.com/rails/exception_notification.git
+[submodule "./vendor/plugins/cache_fu"]
+	path = ./vendor/plugins/cache_fu
+	url = git://github.com/defunkt/cache_fu.git
+[submodule "./vendor/plugins/exception_notification"]
+	path = ./vendor/plugins/exception_notification
+	url = git://github.com/rails/exception_notification.git
